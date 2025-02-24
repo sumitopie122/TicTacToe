@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(221, 219, 241);
+}
+#main{
+    
+   
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    
+    color: rgb(60, 79, 118);
+    text-align: center;
+    font-size: 250%;
+    margin-top: 15vh;
+}
+#game{
+   
+    width: 55vmin;
+    height: 43vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   
+    z-index: 4;
+    position: absolute;
+    margin-bottom: 15vh;
+    
+}
+.btn{
+    height: 13vmin;
+    width: 13vmin;
+    margin: 5px;
+    border-radius: 7px;
+    border: none;
+    font-size: 7vmin;
+    box-shadow: 0 0 1rem rgb(0,0,0,0.3);
+    color: rgb(60, 79, 118);
+    background-color: white;
+}
+
+.winnew{
+    z-index: 5;
+    width: 25vmin;
+    height: 20vmin;
+   background-color: #E8EBF7;
+   background-color: #946E83;
+   margin-bottom: 110px;
+   border: 2px solid black;
+   border-radius: 5px;
+   text-align: center;
+   box-shadow: 0 0 1rem rgb(0,0,0,0.3);
+}
+h5{
+    margin-top: 15px;
+    width: 100%;
+    height: 80px;
+    
+    font-size: large;
+
+}
+#newGameBtn{
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 75px;
+    height: 30px;
+}
+.hide{
+    display: none;
+}
+#resetGame{
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+
+}
+#footBut{
+    text-align: center;
+    margin-bottom: 500px;
+}
